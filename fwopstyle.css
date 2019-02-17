@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 0px;
+  background: white;
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  padding: 0px;
+  background-color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#logoimage{
+  padding: 6px 6px;
+}
+
+.about{
+  font-family: Arial;
+  padding: 0px;
+  background: #87b5ff;
+  margin: 0;
+  height: 400px;
+}
+
+.leadership{
+  font-family: Arial;
+  padding: 0px;
+  background: #87ffab;
+  margin: 0;
+  height: 400px;
+}
+
+.history{
+  font-family: Arial;
+  padding: 0px;
+  background: #bf87ff;
+  margin: 0;
+  height: 400px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
